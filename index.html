@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>AFTER ZERO</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="menu" class="screen">
+  <h1>AFTER ZERO</h1>
+  <p class="sub">โลกจบลงแล้ว แต่คุณยังไม่จบ</p>
+  <button id="btnContinue">Continue</button>
+  <button id="btnNew">New Game</button>
+  <p id="menuMsg" class="sub"></p>
+</div>
+
+<div id="game" class="screen hidden">
+  <header>
+    <h2>AFTER ZERO</h2>
+    <div id="dayInfo"></div>
+  </header>
+  <section id="stats"></section>
+  <section id="resources"></section>
+  <section id="actions">
+    <button id="btnExplore">สำรวจ</button>
+    <button id="btnBase">จัดการฐาน</button>
+    <button id="btnBag">กระเป๋า</button>
+    <button id="btnRest">พักผ่อน</button>
+    <button id="btnMenu" class="wide">กลับเมนูหลัก</button>
+  </section>
+  <section id="log"></section>
+</div>
+
+<div id="modal" class="hidden">
+  <div id="modalBox">
+    <h3 id="modalTitle"></h3>
+    <div id="modalBody"></div>
+    <div id="modalBtns"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
